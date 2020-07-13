@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Yahoo Email">
+    <test name="Yahoo Email Test Environment">
+    <parmeter name="url" value="https://login.yahoo.com/"/>
+    <parameter name="emailId" value= "gawhariparwiz@yahoo.com"/>
+         <classes>
+             <class name="tests.ParameterTest"/>
+            
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
